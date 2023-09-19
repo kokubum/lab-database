@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:14.1
+    restart: always
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: "trust"
+      POSTGRES_DB: lab
+      POSTGRES_USER: lab_user
+      POSTGRES_PASSWORD: lab_password
+    ports:
+      - '5432:5432'
+    volumes: 
+      - ./sample:/var/lib/postgresql/data

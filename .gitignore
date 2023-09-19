@@ -1,0 +1,13 @@
+.idea/
+.history
+settings.json
+.DS_Store
+coverage.out
+artifacts/
+vendor
+dist
+bin
+
+
+# VSCode
+.vscode/
