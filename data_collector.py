@@ -59,6 +59,13 @@ if __name__ == "__main__":
     queries.consulta_2,
     queries.consulta_3,
     queries.consulta_4,
+    # queries.consulta_5,
+    # queries.consulta_6,
+    # queries.consulta_7,
+    # queries.consulta_8,
+    # queries.consulta_9,
+    # queries.consulta_10,
+    # queries.consulta_11,
   ]
 
   tunning_list = [
