@@ -25,8 +25,8 @@ const  {
   consulta4
 } = require('./queries_v2')
 
-TUNNING_SCENARIO = 1
-INDEX_SCENARIO = 2
+TUNNING_SCENARIO = 0
+INDEX_SCENARIO = 0
 
 async function executeQuery(client, query, dbName, queryNumber) {
   console.log("STARTING QUERY "+ queryNumber)
